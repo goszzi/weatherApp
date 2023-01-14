@@ -15,6 +15,7 @@ body {
 	font-size: 20px;
 }
 
+
 h1 {
 	text-transform: uppercase;
 	text-align: center;
@@ -57,11 +58,13 @@ button:hover {
 }
 
 .wrapper {
-	width: 800px;
+	margin: 0 auto;
+	width: 100%;
 	padding: 20px 40px;
 	background-color: rgba(57, 57, 59, 0.541);
 	border: 2px solid white;
 	border-radius: 25px;
+	max-width: 1200px;
 }
 
 .top {
